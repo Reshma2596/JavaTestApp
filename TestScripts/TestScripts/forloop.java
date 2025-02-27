@@ -3,7 +3,7 @@ import java.util.Scanner;
 
 public class forloop {
     public static void main(String[] args) {
-        // Read input from user using Scanner class
+       
         Scanner obj = new Scanner(System.in);
 
         System.out.print("Enter the starting number: ");
@@ -18,7 +18,7 @@ public class forloop {
             System.out.print(i + " ");
         }
         
-        System.out.println(); // Line break
+        System.out.println(); 
 
         // Using While Loop
         System.out.println("Numbers using While Loop:");
@@ -28,6 +28,6 @@ public class forloop {
             i++;
         }
 
-        obj.close(); // Closing scanner
+        obj.close(); 
     }
 }
